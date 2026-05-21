@@ -8,8 +8,8 @@ const features = [
   {
     icon: 'fa-building-columns',
     emoji: '🏛️',
-    title: 'All Counselings Covered',
-    desc: 'JoSAA, CSAB, MHT-CET, COMEDK, KCET, VIT, BITSAT — we guide you through every round of every counseling.',
+    title: 'All Counsellings Covered',
+    desc: 'JoSAA, CSAB, MHT-CET, COMEDK, KCET, VIT, BITSAT and all the popular counsellings — we guide you through every round of every counselling.',
   },
   {
     icon: 'fa-bolt',
