@@ -1,5 +1,5 @@
 const inclusions = [
-  'Personal mentor assigned from your target college',
+  'Personal mentor assigned',
   'All popular counsellings covered',
   'Direct WhatsApp support from your mentor',
   'Unlimited doubt sessions for 2 full months',
