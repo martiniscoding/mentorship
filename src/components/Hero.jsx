@@ -99,10 +99,11 @@ export default function Hero() {
           className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-[1.05] tracking-tight animate-fadeUp"
           style={{ animationDelay: '0.1s' }}
         >
-          Get Into Your{' '}
-          <span className="text-gold-gradient">Dream College</span>
-          <br className="hidden sm:block" /> After{' '}
-          <span className="text-brand-red">JEE 2026</span>
+          Get Your{' '}
+          <span className="text-gold-gradient">Best Possible College</span>
+          <br className="hidden sm:block" /> For Your{' '}
+          <span className="text-brand-red">Rank</span> &{' '}
+          <span className="text-brand-red">Interest</span>
         </h1>
 
         <p
@@ -164,24 +165,6 @@ export default function Hero() {
           One-time payment · No recurring fees · No hidden charges
         </p>
 
-        {/* Trust mini-row */}
-        <div
-          className="mt-12 flex flex-wrap items-center justify-center gap-6 md:gap-10 text-white/60 text-sm animate-fadeUp"
-          style={{ animationDelay: '0.55s', opacity: 0 }}
-        >
-          <div className="flex items-center gap-2">
-            <i className="fa-solid fa-shield-halved text-brand-gold"></i>
-            100% Genuine Mentors
-          </div>
-          <div className="flex items-center gap-2">
-            <i className="fa-solid fa-bolt text-brand-gold"></i>
-            24-Hour Matching
-          </div>
-          <div className="flex items-center gap-2">
-            <i className="fa-solid fa-graduation-cap text-brand-gold"></i>
-            Mentors From Top Colleges
-          </div>
-        </div>
       </div>
 
       {/* Bottom fade */}

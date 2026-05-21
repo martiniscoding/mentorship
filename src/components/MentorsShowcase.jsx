@@ -39,12 +39,11 @@ export default function MentorsShowcase() {
         </div>
 
         {/* Stat strip */}
-        <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 reveal">
+        <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 reveal">
           {[
-            { num: '50+', label: 'Mentors' },
-            { num: '8+', label: 'Counsellings Covered' },
-            { num: '30+', label: 'Partner Colleges' },
-            { num: '500+', label: 'Students Guided' },
+            { num: '40+', label: 'Mentors' },
+            { num: 'All', label: 'Counsellings Covered' },
+            { num: '3k+', label: 'Students Guided' },
           ].map((s, i) => (
             <div
               key={i}

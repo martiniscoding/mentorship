@@ -1,11 +1,5 @@
 const features = [
   {
-    icon: 'fa-bullseye',
-    emoji: '🎯',
-    title: 'Rank-Based College Mapping',
-    desc: 'A personalized list of the best colleges and branches for your exact rank, category, and state. No more guesswork.',
-  },
-  {
     icon: 'fa-user-graduate',
     emoji: '🤝',
     title: '1-on-1 Personal Mentor',
@@ -50,7 +44,7 @@ export default function Solution() {
           </p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {features.map((f, i) => (
             <div
               key={i}

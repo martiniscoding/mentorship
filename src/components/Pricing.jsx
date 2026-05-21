@@ -1,7 +1,6 @@
 const inclusions = [
   'Personal mentor assigned from your target college',
-  'Rank-based personalized college list',
-  'JoSAA / CSAB / State counseling guidance',
+  'All popular counsellings covered',
   'Direct WhatsApp support from your mentor',
   'Unlimited doubt sessions for 2 full months',
   'Cutoff data, branch analysis & placement insights',

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const DEADLINE = new Date('2026-05-23T00:00:00').getTime()
+const DEADLINE = new Date('2026-05-24T00:00:00').getTime()
 
 function getRemaining() {
   const diff = Math.max(0, DEADLINE - Date.now())

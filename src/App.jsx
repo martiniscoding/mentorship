@@ -7,7 +7,6 @@ import Solution from './components/Solution'
 import MentorsShowcase from './components/MentorsShowcase'
 import MentorColleges from './components/MentorColleges'
 import HowItWorks from './components/HowItWorks'
-import Testimonials from './components/Testimonials'
 import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
 import FinalCTA from './components/FinalCTA'
@@ -42,7 +41,6 @@ export default function App() {
         <Solution />
         <MentorColleges />
         <HowItWorks />
-        <Testimonials />
         <Pricing />
         <FAQ />
         <FinalCTA />
