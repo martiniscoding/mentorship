@@ -3,7 +3,7 @@ const features = [
     icon: 'fa-user-graduate',
     emoji: '🤝',
     title: '1-on-1 Personal Mentor',
-    desc: 'Get matched with a real student currently studying at your target college. They\'ve been exactly where you are.',
+    desc: 'Studying at one of the colleges you are targeting.',
   },
   {
     icon: 'fa-building-columns',

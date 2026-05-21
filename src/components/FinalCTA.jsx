@@ -20,8 +20,8 @@ export default function FinalCTA() {
           <i className="fa-solid fa-crown"></i> JEE 2026 Batch Now Open
         </div>
         <h2 className="text-4xl md:text-6xl font-extrabold leading-[1.05] tracking-tight text-white">
-          Your Dream College Is{' '}
-          <span className="text-brand-gold">One Decision</span> Away
+          Don't Lose Hope —{' '}
+          <span className="text-brand-gold">A Great College</span> Is Still Within Reach
         </h2>
         <p className="mt-6 text-white/85 text-lg md:text-xl max-w-2xl mx-auto">
           Don't guess. Don't panic. Get a mentor who's been there.
