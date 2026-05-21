@@ -1,12 +1,5 @@
 import { useEffect, useState } from 'react'
 
-const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'JEE 2027', href: '#jee-2027' },
-  { label: 'JEE 2028', href: '#jee-2028' },
-  { label: 'Trust', href: '#trust' },
-]
-
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
 
@@ -36,22 +29,28 @@ export default function Navbar() {
           />
         </a>
 
-        {/* Nav links */}
-        <nav className="hidden md:flex items-center gap-7 lg:gap-9">
-          {navLinks.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-sm font-medium text-white/85 hover:text-brand-gold transition-colors relative after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-brand-gold hover:after:w-full after:transition-all"
-            >
-              {l.label}
-            </a>
-          ))}
-        </nav>
+        {/* Center: mentor-college trust strip */}
+        <div className="hidden md:flex flex-1 justify-center">
+          <div className="inline-flex items-center gap-3 text-xs lg:text-sm font-medium text-white/85 bg-white/[0.04] border border-white/10 rounded-full px-4 py-2 backdrop-blur whitespace-nowrap">
+            <i className="fa-solid fa-graduation-cap text-brand-gold"></i>
+            <span>Mentors from</span>
+            <span className="text-brand-gold font-semibold">IIT</span>
+            <span className="text-white/30">·</span>
+            <span className="text-brand-gold font-semibold">NIT</span>
+            <span className="text-white/30">·</span>
+            <span className="text-brand-gold font-semibold">VIT</span>
+            <span className="text-white/30">·</span>
+            <span className="text-brand-gold font-semibold">BITS</span>
+            <span className="text-white/30">·</span>
+            <span className="text-brand-gold font-semibold">COEP</span>
+          </div>
+        </div>
 
         {/* CTA */}
         <a
-          href="#pricing"
+          href="https://rzp.io/rzp/Fmped2SK"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-redDark text-white font-semibold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-full border-2 border-brand-gold/70 hover:border-brand-gold transition-all shadow-lg shadow-brand-red/30 shrink-0"
         >
           Book Now → ₹1,199

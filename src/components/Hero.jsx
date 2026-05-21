@@ -141,7 +141,9 @@ export default function Hero() {
           style={{ animationDelay: '0.45s', opacity: 0 }}
         >
           <a
-            href="#pricing"
+            href="https://rzp.io/rzp/Fmped2SK"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-pulse inline-flex items-center justify-center gap-2 bg-brand-red hover:bg-brand-redDark text-white font-bold px-8 py-4 rounded-full text-base md:text-lg shadow-xl shadow-brand-red/40 transition-all border-2 border-brand-gold/60"
           >
             Start For ₹1,199 · 2 Months{' '}

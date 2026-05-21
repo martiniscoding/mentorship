@@ -71,7 +71,9 @@ export default function Pricing() {
               </ul>
 
               <a
-                href="#pricing"
+                href="https://rzp.io/rzp/Fmped2SK"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-pulse mt-9 w-full inline-flex items-center justify-center gap-2 bg-brand-red hover:bg-brand-redDark text-white font-bold py-4 rounded-full text-lg border-2 border-brand-gold/60 transition-all"
               >
                 Claim Your Mentor → ₹1,199

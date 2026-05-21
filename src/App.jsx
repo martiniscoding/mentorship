@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import UrgencyBanner from './components/UrgencyBanner'
 import Problem from './components/Problem'
 import Solution from './components/Solution'
+import MentorsShowcase from './components/MentorsShowcase'
 import MentorColleges from './components/MentorColleges'
 import HowItWorks from './components/HowItWorks'
 import Testimonials from './components/Testimonials'
@@ -36,6 +37,7 @@ export default function App() {
       <main>
         <Hero />
         <UrgencyBanner />
+        <MentorsShowcase />
         <Problem />
         <Solution />
         <MentorColleges />

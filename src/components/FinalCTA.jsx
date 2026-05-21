@@ -28,7 +28,9 @@ export default function FinalCTA() {
         </p>
 
         <a
-          href="#pricing"
+          href="https://rzp.io/rzp/Fmped2SK"
+          target="_blank"
+          rel="noopener noreferrer"
           className="btn-pulse mt-10 inline-flex items-center justify-center gap-3 bg-brand-gold hover:bg-yellow-400 text-black font-extrabold px-10 py-5 rounded-full text-lg md:text-xl shadow-2xl shadow-black/40 border-2 border-white/20 transition-all"
         >
           Book My Mentor → ₹1,199{' '}
